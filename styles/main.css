@@ -1,0 +1,23 @@
+* {
+    /*Hace que el calculo del border y el margin sea interno asi no se ocupa mas 
+    espacio que el definido
+    */
+  box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+    color: white;
+}
+
+.wall {
+    background-color: aqua;
+    width: 50%;
+    height: 20px;
+}
+
+section, ul {
+    display: flex;
+    margin: 5px;
+}
+
